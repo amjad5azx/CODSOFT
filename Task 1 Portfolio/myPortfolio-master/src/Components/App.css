@@ -1,0 +1,217 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    header {
+    background-color: hsl(210, 15%, 20%);
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: black;
+    display: flex;
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
+  .navbar-dark .navbar-brand {
+    font-size: xx-large;
+  
+  }
+  
+  .navbar-dark .navbar-brand:hover {
+      font-size: xx-large;
+      font-weight: bold;
+    }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: white;
+    color: black;
+  }
+  
+    .animated-header {
+  font-size: 36px;
+  animation: slideInLeftAndStay 5s ease-in-out 1s infinite;
+  animation-fill-mode: both;
+}
+
+.animated-subheader {
+  font-size: 18px;
+  animation: fadeInAndStay 5s ease-in-out 1s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInLeftAndStay {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInAndStay {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+    .profile-image {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+    h2 {
+      color: #343a40;
+      margin-bottom: 20px;
+    }
+
+    .project {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .skills {
+      margin-bottom: 30px;
+    }
+
+    .contact-form {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Custom Colors */
+    h1.animated-header {
+      color: #fff;
+    }
+
+    p.animated-subheader {
+      color: #fff;
+    }
+
+    #about {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #projects {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #projects .project {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #skills {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #education {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #education ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    #github {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #contact {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer p {
+      margin-bottom: 0;
+    }
+
+    /* Button Colors */
+    .btn-primary {
+      background-color: #343a40;
+      border-color: #343a40;
+    }
+
+    .btn-primary:hover {
+      background-color: #212529;
+      border-color: #212529;
+    }
+
+    .btn-primary:focus {
+      background-color: #212529;
+      border-color: #212529;
+      box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+    }
+    .name a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+  }
